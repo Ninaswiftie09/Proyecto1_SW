@@ -26,8 +26,8 @@ Este proyecto es una calculadora sencilla implementada en React, que cumple con 
 
 Ejecutar pruebas con:
 
-```bash
-npm test
+    npm test
+
 
 ## Storybook
     Se implementaron historias para todos los componentes principales (Calculator, Display, Keyboard) que permiten visualizar distintos estados y probar la UI interactivamente.
