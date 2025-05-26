@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('https://concepto.de/wp-content/uploads/2019/07/galaxia-e1561948087438-800x400.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: rgba(0, 0, 30, 0.85);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+
+.display {
+  background-color: #f0f1f4;
+  font-size: 2rem;
+  padding: 20px;
+  text-align: right;
+  border-radius: 8px;
+  overflow: hidden; 
+}
+
+.keyboard {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  padding: 20px;
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #0e1a44;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn:hover {
+  background-color: #1b2e75;
+}
+
+.btn.wide {
+  grid-column: span 2;
+}
+
+.app {
+  background-color: #1a1f3c;
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px #00000055;
+}
